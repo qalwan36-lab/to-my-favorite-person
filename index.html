@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <title>Happy Birthday Kak Rafaa🤍</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+       <link rel="icon" href="adwaitlogo.jpg" type="image/jpg">
+</head>
+
+<body>
+    <!-- Floating Background Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1 class="typewriter" id="typewriter">Barakallahu fii umrik, Happy Birthday, Sanah Helwah, Selamat Ulang Tahun💙</h1>
+            <p class="subtitle fade-in">08 Februari 2007</p>
+            <p class="subtitle fade-in">Rafa Chairunnisa</p>
+            <div class="floating-hearts">
+                <div class="heart">❤️</div>
+                <div class="heart">💖</div>
+                <div class="heart">💙</div>
+                <div class="heart">🤍</div>
+                <div class="heart">💝</div>
+              </div>
+            <button class="cta-button" onclick="scrollToSection('gallery')">
+                Klik ini ya cantik🎉
+            </button>
+        </div> 
+        <audio id="bg-music" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <h2 class="section-title">You Look So Beautiful</h2>
+            <div class="gallery-grid">
+                <div class="photo-card" data-aos="fade-up" data-delay="90">
+                    <div class="photo-container">
+                        <img src="https://i.supaimg.com/a584b77d-3567-462e-9b11-5193e8176a36.jpg"
+                            alt="Beautiful moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">beautiful smile</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="200">
+                    <div class="photo-container">
+                        <img src="https://i.supaimg.com/62a8df59-467e-4504-af9d-1ac31c8ebba1.jpg"
+                            alt="Sweet memory">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">You're so kind</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="300">
+                    <div class="photo-container">
+                        <img src="https://i.supaimg.com/6bcf5bff-69d5-478c-9d22-af7d08212baa.jpg"
+                            alt="Happy times">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">You look gorgeous</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="400">
+                    <div class="photo-container">
+                        <img src="https://i.supaimg.com/c5c14bda-0ba5-4b30-9940-4a410952dcf5.jpg"
+                            alt="Love moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">So Cute💝</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="500">
+                    <div class="photo-container">
+                        <img src="https://i.supaimg.com/8e916704-58f2-44f2-a149-a3268bbd65eb.jpg"
+                            alt="Beautiful day">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">a lovely smile</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="600">
+                    <div class="photo-container">
+                        <img src="https://i.supaimg.com/7cb50643-46dd-437a-b0a3-4b95f3558392.jpg"
+                            alt="Romantic moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">Gorgeous eyes</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Birthday Message Section -->
+    <section class="message-section" id="message">
+        <div class="container">
+            <div class="message-card">
+                <h2 class="message-title">A Special Message for You</h2>
+                <div class="message-content">
+                    <p class="message-text fade-in-text">ngga kerasa waktu cepat banget berlalu, tapi doa aku buat kamu nggak pernah berubah,
+                        semoga Allah kasih kamu kesehatan yang berkah, kebahagiaan yang ngga putus-putus,
+                        dan diberi kesabaran yang luas. Semoga sisa usiamu ini membawa banyak kebaikan bukan cuma buat diri kamu sendiri,
+                        tapi juga buat orang-orang di sekitar kamu. </p>
+                    <p class="message-text fade-in-text">
+                        semoga semua yang kamu impikan bisa tercapai ya ditahun ini,
+                        doa yg terbaik selalu mengiringi,
+                        dan doa aku masih sama sih semoga kita masih tetap deket dan ngga asing walaupun nantinya kita bakalan pisah,
+                        entah nantinya kamu ketemu orang yg lebih dari aku juga gapapa, seengga kita pernah jadi teman yg ngga teman itu wkwk
+                    </p>
+                    <p class="message-signature fade-in-text">
+                        Happy birthday yaaa, sehat selaluu, harus sabar sabar ya menghadapi kehidupan yg sangat sangat melelah kan ini,
+                        semangatt teruss yeaaa❤️‍🩹💕
+                    </p>
+                </div>
+                <div class="message-hearts">
+                    <span class="heart-animation">💖</span>
+                    <span class="heart-animation">💕</span>
+                    <span class="heart-animation">💗</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026@from stranger to stranger,
+                my favorite person🤍</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
